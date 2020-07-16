@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yandex-flow/static/css/main.9b4096ff.chunk.css",
+    "main.js": "/yandex-flow/static/js/main.fcb614ac.chunk.js",
+    "main.js.map": "/yandex-flow/static/js/main.fcb614ac.chunk.js.map",
+    "runtime-main.js": "/yandex-flow/static/js/runtime-main.0691beb6.js",
+    "runtime-main.js.map": "/yandex-flow/static/js/runtime-main.0691beb6.js.map",
+    "static/js/2.d4f9bdd7.chunk.js": "/yandex-flow/static/js/2.d4f9bdd7.chunk.js",
+    "static/js/2.d4f9bdd7.chunk.js.map": "/yandex-flow/static/js/2.d4f9bdd7.chunk.js.map",
+    "index.html": "/yandex-flow/index.html",
+    "precache-manifest.2e72227266a82f098f69e1d03bbe58bb.js": "/yandex-flow/precache-manifest.2e72227266a82f098f69e1d03bbe58bb.js",
+    "service-worker.js": "/yandex-flow/service-worker.js",
+    "static/css/main.9b4096ff.chunk.css.map": "/yandex-flow/static/css/main.9b4096ff.chunk.css.map",
+    "static/js/2.d4f9bdd7.chunk.js.LICENSE.txt": "/yandex-flow/static/js/2.d4f9bdd7.chunk.js.LICENSE.txt",
+    "static/media/chat-animation.mp4": "/yandex-flow/static/media/chat-animation.4d58ad22.mp4",
+    "static/media/feature-theory.jpg": "/yandex-flow/static/media/feature-theory.f8012af3.jpg",
+    "static/media/trainer-animation.mp4": "/yandex-flow/static/media/trainer-animation.993a8662.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0691beb6.js",
+    "static/js/2.d4f9bdd7.chunk.js",
+    "static/css/main.9b4096ff.chunk.css",
+    "static/js/main.fcb614ac.chunk.js"
+  ]
+}
