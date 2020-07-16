@@ -1,0 +1,149 @@
+body {
+  background-color: #f7f7f8;
+}
+
+h1{
+  font-size: 64px;
+}
+
+h3{
+  font-size: 40px;
+  margin-bottom: 40px
+}
+
+h2 {
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 64px;
+  line-height: 1.1;
+}
+
+p {
+  color: #242424;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+
+.btn{
+  display: inline-block;
+  padding: 14px 20px;
+  background-color: #242424;
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 48px;
+  font-size: 16px;
+}
+
+.btn:hover{
+  background-color: #3a3939;
+}
+
+.browser{
+  box-shadow: 0px 0px 20px 14px #dcd9d9;
+  /* box-shadow: -12px 12px 18px 0px #dcd9d9; */
+  margin: 100px auto;
+  border-radius: 20px;
+}
+
+.browser video {
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.browser img {
+  width: 100%;
+  border-radius: 20px;
+}
+.browser .browser-header{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.txt-card{
+  background-color: #facb48;
+  border-radius: 20px;
+  width: 600px;
+  padding: 110px 70px;
+}
+
+.img-card {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 0px #d5d5d8;
+}
+
+
+.vid-card {
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 1px 1px 20px 0px #d5d5d8;
+}
+
+.vid-card video {
+  width: 500px;
+}
+
+.feedback-card{
+  box-shadow: 1px 1px 20px 0px #d5d5d8;
+  width: 430px;
+  height: 350px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.feedback-card > div > div{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+
+}
+.feedback-card > div {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.feedback-card > div > span {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+
+.dropdown {
+  margin: 0 auto;
+  width: 80%;
+}
+.dropdown >div:nth-child(1) {
+  font-size: 24px;
+  padding: 30px 20px;
+  position: relative;
+  border-radius: 15px;
+}
+.dropdown > div:nth-child(1):hover{
+  background-color: #ebebef;
+  cursor: pointer;
+}
+
+.dropdown span{
+  position: absolute;
+  right: 20px;
+  top: 35%;
+  transform: rotate(180deg);
+  transition: all 300ms;
+}
+
+.dropdown >div:nth-child(2) {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-height: 1000px;
+  transition: max-height 0.4s ease-in;
+  padding: 0px 10px;
+}
