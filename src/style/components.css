@@ -1,0 +1,352 @@
+.hero {
+    height: 898px;
+    padding-top: 86px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+.hero h1 {
+    padding-right: 30%;
+    line-height: 1.2;
+}
+.hero h1 div {
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+    vertical-align: top;
+}
+
+.hero-h1-bx{
+    height: 250px;
+}
+
+.chtxt-enter div {
+    max-height: 0;
+}
+.chtxt-enter-done div {
+    max-height: 100px;
+    transition: max-height 250ms ease-in;
+}
+.chtxt-exit div { 
+    max-height: 100px;
+   
+}
+.chtxt-exit-done div {
+    max-height: 0;
+    transition: max-height 250ms ease-in;
+}
+
+.down_button{
+    height: 70px;
+    width: 70px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.down_button:hover {
+    background-color: #3a3939;
+    cursor: pointer;
+}
+
+.down_button svg{
+    color: white;
+    transform: rotate(180deg);
+}
+
+.layer1 {
+    width: 100%;
+    height: 100%;
+    background-color: #ffcb48;
+    position: absolute;
+    bottom: 0px;
+    height: 0%;
+    z-index: -2;  
+    transition: height 500ms linear;
+    opacity: 0;
+}
+
+.layer2 {
+    width: 100%;
+    height: 100%;
+    background-color: #ff5448;
+    position: absolute;
+    bottom: 0px;
+    height: 0%;
+    z-index: -2;
+    transition: height 500ms linear;
+    opacity: 0;
+}
+
+.layer3 {
+    width: 100%;
+    height: 100%;
+    background-color: #81b38e;
+    position: absolute;
+    bottom: 0px;
+    height: 0%;
+    z-index: -2; 
+    transition: height 500ms linear;
+    opacity: 0;
+}
+
+.current-layer {
+    height: 100%;   
+    opacity: 1;
+}
+
+.heroboy{
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+    height: 500px;
+}
+
+.advbase{
+    position: absolute;
+    bottom: -500px;
+    left: 10%;
+    height: 500px;
+    opacity: 0;
+    transition: bottom 500ms cubic-bezier(0, 0, 0, 1.02);
+    z-index: -1;
+}
+.advcur {
+    opacity: 1;
+    bottom: 0px;  
+   
+}
+
+header{
+    width: 100%;
+    background-color: #fff;
+    height: 86px;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0 8px 24px rgba(36,36,36,.15);
+    transition: background-color 300ms;
+    z-index: 1;
+}
+  
+header > div {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 156px;
+    margin: 0 auto;  
+}
+
+.logo-box{
+    display: flex;
+}
+
+.logo-box > div:nth-child(2){
+    font-size: 11px;
+    margin-left: 20px;
+    line-height: 1.3;
+    position: relative;
+    bottom: 2px;
+}
+
+.menu-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.menu-box > div:nth-child(1){
+    margin-right: 10px;
+}
+
+  .vse-cursi{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    user-select: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .vse-cursi span {
+    cursor: pointer;
+  }
+  .vse-cursi span:hover{
+    text-decoration: underline;
+  }
+  .dd-rect{
+      position: absolute;
+      top: -10px;
+      left:0px;
+      height: 10px;
+      width: 123px;
+      background-color: #242424;
+  }
+
+  .cursi-opened{
+    background-color: #242424;
+    color: whitesmoke;
+  }
+
+  .dropdown-menu{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    color: whitesmoke;
+    background-color: #242424;
+    padding: 0px 20px 20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .dropdown-menu li{
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .dropdown-menu li:hover{
+      text-decoration: underline;
+  }
+
+
+  .top-header {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  
+  .btn{
+    display: inline-block;
+    padding: 14px 20px;
+    background-color: #242424;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 48px;
+    font-size: 16px;
+  }
+  
+  .btn:hover{
+    background-color: #3a3939;
+  }
+  
+  .browser{
+    box-shadow: 0px 0px 20px 14px #dcd9d9;
+    /* box-shadow: -12px 12px 18px 0px #dcd9d9; */
+    margin: 100px auto;
+    border-radius: 20px;
+  }
+  
+  .browser video {
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .browser img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .browser .browser-header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .txt-card{
+    background-color: #facb48;
+    border-radius: 20px;
+    width: 600px;
+    padding: 70px 100px 48px 70px;
+  }
+  
+  .img-card {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 0px #d5d5d8;
+  }
+  
+  
+  .vid-card {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 20px 0px #a0a0a069;
+  }
+  
+  .vid-card video {
+    width: 500px;
+  }
+  
+  .feedback-card{
+    box-shadow: 1px 1px 20px 0px #d5d5d8;
+    width: 430px;
+    height: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .feedback-card > div > div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .feedback-card > div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .feedback-card > div > span {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  
+  .dropdown {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown p {
+      margin-right: 30%;
+  }
+  .dropdown >div:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 15px;
+  }
+  .dropdown > div:nth-child(1):hover{
+    background-color: #ebebef;
+    cursor: pointer;
+  }
+  
+  .dropdown span{
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    transform: rotate(180deg);
+    transition: all 300ms;
+  }
+  
+  .dropdown >div:nth-child(2) {
+    box-sizing: border-box;
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height 0.5s linear;
+    padding: 0px 10px;
+  }
+

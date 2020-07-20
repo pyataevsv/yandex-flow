@@ -41,6 +41,10 @@ table {
     border-spacing: 0;
 }
 body{
-    font-family: Open Sans,Helvetica Neue,Arial,sans-serif;
+    font-family: Textbook New, Arial, Helvetica, sans-serif;
   }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
